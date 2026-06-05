@@ -2,14 +2,11 @@
 
 **ASCILINE** is a high-performance, real-time ASCII video rendering engine. **Our core objective is to transform the web into a highly dynamic and interactive typographic canvas.** By moving away from traditional video players, ASCILINE streams visual data from a Python backend directly into the browser at **60 FPS** as raw, manipulable text.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cc38d219-b4d2-4873-82dc-2abb179b5665" width="600" alt="Animation" />
-  <br>
-  <br>
-  <img src="https://github.com/user-attachments/assets/6bd7f5c0-81de-49fe-ba0d-9a8872ec8ae3" width="600" alt="Animation-after" />
-  <br>
-  <sub><i>* Showcases rendered using Mode 3 (32K Colors) from a 30 FPS source video. The engine naturally synchronizes up to 60+ FPS depending on the source material.</i></sub>
-</p>
+| Output | Details |
+| :--- | :--- |
+| <img src="https://github.com/user-attachments/assets/cc38d219-b4d2-4873-82dc-2abb179b5665" width="400" alt="Original Animation" /> | **Original Source**<br>Standard MP4 video file. |
+| <img src="https://github.com/user-attachments/assets/6bd7f5c0-81de-49fe-ba0d-9a8872ec8ae3" width="400" alt="ASCII Mode" /> | **ASCII Mode**<br>Showcases rendered using Mode 3 (32K Colors) from a 30 FPS source video. The engine naturally synchronizes up to 60+ FPS depending on the source material. |
+| <img src="https://github.com/user-attachments/assets/0d6e9d4c-662c-4e38-b451-70d9b142bc1d" width="400" alt="Pixel Mode" /> | **PIXEL Mode**<br>Showcases rendered using Mode 3 (32K Colors) combined with `--pixel`. Replaces characters with colored blocks for ultra-high performance. **At higher grid resolutions, visual fidelity rivals or exceeds standard 240p/360p video streams.** |
 
 ## 🎯 Strategic Vision & Core Capabilities
 
