@@ -409,6 +409,8 @@ async def websocket_endpoint(websocket: WebSocket):
                     wait = (frame_index * frame_t) - elapsed
                     if wait > 0:
                         await asyncio.sleep(wait)
+                    elif debug_mode and wait < -0.05:
+                        print(f"[LAG] Python encoding is {abs(wait):.3f}s behind real-time!")
                     
                     frame_index += 1
 
